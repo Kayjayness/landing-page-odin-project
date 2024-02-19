@@ -140,25 +140,23 @@ article {
     padding: 75px;
 }
 
-.sectionThree div {
-    width: 750px;
-    margin: 0px auto;
+.sectionThree div{
+    max-width: 750px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
+    margin: 0px auto;
 }
 
 .testemonialText {
-    width: 800px;
     color: #444;
-    text-align: left;
     font-size: 24px;
     font-style: italic;
 }
 
 .testemonialAuthor {
-    padding-right: 50px;
-    width: 800px;
+    align-self: flex-end;
     color: #111;
     text-align: right;
     font-weight: 600;
@@ -174,6 +172,7 @@ article {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 25px;
     background-color: #3477db;
     border-radius: 10px;
@@ -187,6 +186,15 @@ article {
     border-radius: 5px;
     border: solid 2px #fff;
     background-color: #11111100;
+}
+
+.buttonTwo {
+    flex: 0 0 auto;
+}
+
+.callToAction {
+    flex: 0 1 auto;
+    min-width: 150px;
 }
 
 .buttonTwo button:hover {
