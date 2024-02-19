@@ -13,6 +13,22 @@ body {
     color: #e5e7eb;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #67b0e0;
+}
+
+a:active {
+    color: #67b0e0;
+}
+
+a:visited {
+    color: #e5e7eb;
+}
+
 .navigation {
     background-color: #1c2e46;
     padding: 20px 75px;
@@ -58,6 +74,11 @@ body {
     background-color: #3477db;
     border-style: none;
     border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #111;
 }
 
 .headersectionTwo {
@@ -142,4 +163,38 @@ article {
     text-align: right;
     font-weight: 600;
     font-size: 18px;
+}
+
+.sectionFour {
+    background-color: #fff;
+    padding: 100px 400px;
+}
+
+.contentBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    background-color: #3477db;
+    border-radius: 10px;
+    padding: 50px 100px;
+    margin: 0px auto;
+}
+
+.buttonTwo button {
+    color: #fff;
+    padding: 5px 35px;
+    border-radius: 5px;
+    border: solid 2px #fff;
+    background-color: #11111100;
+}
+
+.buttonTwo button:hover {
+    color: #111;
+    background-color: #fff;
+}
+
+.footer {
+    padding: 15px 0px;
+    text-align: center;
 }
