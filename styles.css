@@ -78,7 +78,7 @@ body {
     justify-content: flex-start;
     gap: 50px;
     background-color: #fff;
-    padding: 75px 75px;
+    padding: 75px;
 }
 
 .sectionTwo h2 {
@@ -112,4 +112,34 @@ article {
     height: 175px;
     border-radius: 10px;
     border: solid 3px #3477db;
+}
+
+.sectionThree {
+    background-color: #dddddd;
+    padding: 75px;
+}
+
+.sectionThree div {
+    width: 750px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testemonialText {
+    width: 800px;
+    color: #444;
+    text-align: left;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.testemonialAuthor {
+    padding-right: 50px;
+    width: 800px;
+    color: #111;
+    text-align: right;
+    font-weight: 600;
+    font-size: 18px;
 }
