@@ -37,7 +37,6 @@ body {
 }
 
 .headersectionOne {
-    padding-left: 20px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -73,6 +72,44 @@ body {
 }
 
 .sectionTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
     background-color: #fff;
-    padding: 100px 75px;
+    padding: 75px 75px;
+}
+
+.sectionTwo h2 {
+    color: #333;
+}
+
+.sectionTwo p {
+    color: #555;
+}
+
+articles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    flex: 0 1 200px;
+}
+
+.imageplaceholder {
+    width: 175px;
+    height: 175px;
+    border-radius: 10px;
+    border: solid 3px #3477db;
 }
